@@ -33,7 +33,7 @@ h2{
     animation: fadeIn 3000ms ease-in-out;
 }
 
-i{  
+#play{  
     color: white;
     opacity: 0;
     margin-top: 30px;
@@ -47,6 +47,32 @@ i{
     font-size: 10vw;
 }
 
+.video-container{
+    position: absolute;
+    width:100vw;
+    height: 100vh;
+    background: black;
+    opacity: 1;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+iframe{
+    opacity: 1;
+    width: 70vw;
+    height: 80vh;
+}
+#video-container-closer{
+    position: absolute;
+    z-index: 2;
+    right: 3vw;
+    top: 3vw;
+    font-size: 2vw;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
 @-webkit-keyframes fadeIn {
     0% {
         opacity: 0;
