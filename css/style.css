@@ -1,10 +1,10 @@
-body {
+.body-container {
     font-family: 'Work Sans', sans-serif;
     position:relative;
     overflow: hidden;
-    background-image: -webkit-linear-gradient(224deg, #4223AE 0%, #FF0079 100%);
-    background-image: -o-linear-gradient(224deg, #4223AE 0%, #FF0079 100%);
-    background-image: linear-gradient(-134deg, #4223AE 0%, #FF0079 100%);
+    background-image: -webkit-linear-gradient(224deg, #4396FF 0%, #45F2B7 100%);
+    background-image: -o-linear-gradient(224deg, #4396FF 0%, #45F2B7 100%);
+    background-image: linear-gradient(-134deg, #4396FF 0%, #45F2B7 100%);
     width: 100vw;
     height: 100vh;
 }
@@ -20,7 +20,7 @@ h2{
     font-style: italic;
 }
 .content{
-    margin-top: 50px;
+    padding-top: 40px;
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -102,7 +102,7 @@ iframe{
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 414px) {
     .main-logo{
         width: 60vw;
     }
@@ -114,7 +114,7 @@ iframe{
     }
     .video-container{
         width:100vw;
-        height: 812px;
+        height: 100vh;
     }
     iframe{
         width: 100vw;
