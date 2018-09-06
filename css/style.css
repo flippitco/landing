@@ -1,6 +1,26 @@
 body {
     font-family: 'Work Sans', sans-serif;
+    overflow: hidden;
+    background-image: linear-gradient(-134deg, #4223AE 0%, #FF0079 100%);
+    width: 100vw;
+    height: 100vh;
 }
+
 h1{
     display: none;
+}
+h2{
+    font-size: 34px;
+    font-weight: bold;
+    color: white;
+}
+.content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+img{
+    width: 60vw;
 }
