@@ -1,6 +1,8 @@
 body {
     font-family: 'Work Sans', sans-serif;
     overflow: hidden;
+    background-image: -webkit-linear-gradient(224deg, #4223AE 0%, #FF0079 100%);
+    background-image: -o-linear-gradient(224deg, #4223AE 0%, #FF0079 100%);
     background-image: linear-gradient(-134deg, #4223AE 0%, #FF0079 100%);
     width: 100vw;
     height: 100vh;
@@ -19,10 +21,19 @@ h2{
 .content{
     margin-top: 50px;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     position: relative;
 }
 .main-logo{
@@ -41,6 +52,7 @@ h2{
 }
 .pointer-animation{
     -webkit-transition: font-size 0.6s; /* Safari */
+    -o-transition: font-size 0.6s;
     transition: font-size 0.6s;
 }
 .pointer-animation:hover{
@@ -54,14 +66,21 @@ h2{
     background: black;
     opacity: 1;
     top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 iframe{
     opacity: 1;
     width: 70vw;
     height: 80vh;
+    background: black;
 }
 #video-container-closer{
     position: absolute;
