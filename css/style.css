@@ -10,6 +10,7 @@ h1{
     display: none;
 }
 h2{
+    margin-top: 30px;
     font-size: 34px;
     font-weight: bold;
     color: white;
@@ -22,5 +23,5 @@ h2{
     flex-direction: column;
 }
 img{
-    width: 60vw;
+    width: 30vw;
 }
