@@ -22,7 +22,31 @@ h2{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
 }
 img{
     width: 30vw;
+}
+
+.fadeIn{
+    -webkit-animation: fadeIn 3000ms ease-in-out; /* Chrome, Safari, Opera */
+    animation: fadeIn 3000ms ease-in-out;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    img{
+        width: 60vw;
+    }
+    .content{
+        top: -60px;
+    }
 }
