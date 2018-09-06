@@ -17,6 +17,7 @@ h2{
     font-style: italic;
 }
 .content{
+    margin-top: 50px;
     height: 100%;
     display: flex;
     align-items: center;
@@ -24,13 +25,28 @@ h2{
     flex-direction: column;
     position: relative;
 }
-img{
+.main-logo{
     width: 30vw;
 }
-
 .fadeIn{
     -webkit-animation: fadeIn 3000ms ease-in-out; /* Chrome, Safari, Opera */
     animation: fadeIn 3000ms ease-in-out;
+}
+
+i{  
+    color: white;
+    opacity: 0;
+    margin-top: 30px;
+    font-size: 8vw;
+
+}
+.pointer-animation:hover{
+    font-size: 10vw;
+    -webkit-transition: font-size 0.6s; /* Safari */
+    transition: font-size 0.6s;
+}
+.pointer-animation:hover{
+    font-size: 10vw;
 }
 
 @-webkit-keyframes fadeIn {
@@ -43,7 +59,7 @@ img{
 }
 
 @media only screen and (max-width: 375px) {
-    img{
+    .main-logo{
         width: 60vw;
     }
     .content{
