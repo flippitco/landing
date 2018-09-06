@@ -38,10 +38,8 @@ i{
     opacity: 0;
     margin-top: 30px;
     font-size: 8vw;
-
 }
-.pointer-animation:hover{
-    font-size: 10vw;
+.pointer-animation{
     -webkit-transition: font-size 0.6s; /* Safari */
     transition: font-size 0.6s;
 }
@@ -63,6 +61,9 @@ i{
         width: 60vw;
     }
     .content{
-        top: -60px;
+        top: -45px;
+    }
+    i{
+        font-size: 20vw;
     }
 }
