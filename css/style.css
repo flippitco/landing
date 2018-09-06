@@ -1,5 +1,6 @@
 body {
     font-family: 'Work Sans', sans-serif;
+    position:relative;
     overflow: hidden;
     background-image: -webkit-linear-gradient(224deg, #4223AE 0%, #FF0079 100%);
     background-image: -o-linear-gradient(224deg, #4223AE 0%, #FF0079 100%);
