@@ -11,9 +11,10 @@ h1{
 }
 h2{
     margin-top: 30px;
-    font-size: 34px;
+    font-size: 14px;
     font-weight: bold;
     color: white;
+    font-style: italic;
 }
 .content{
     height: 100%;
