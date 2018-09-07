@@ -10,7 +10,7 @@ window.onload = () => {
     document.getElementById('play').addEventListener('click', () => {
         document.getElementById('video-container').classList.add('video-container');
         document.getElementById('video-container-closer').style.display = 'block';
-        document.getElementById('iframe').src = 'https://www.youtube.com/embed/wA5T0H2gUFY?autoplay=1';
+        document.getElementById('iframe').src = 'https://www.youtube.com/embed/lxp77Sa4HwU?autoplay=1&cc_load_policy=1';
     });
     document.getElementById('video-container-closer').addEventListener('click', () => {
         document.getElementById('video-container').classList.remove('video-container');
